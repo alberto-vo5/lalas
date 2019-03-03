@@ -1,0 +1,36 @@
+main {
+    padding-top: 0px;
+    font-size: .9em;
+}
+
+#logo {
+    width: 90%;
+    height: auto;
+}
+
+#menu-header img {
+    width: 90%;
+    height: auto;
+}
+
+.phone {
+    text-align: center;
+}
+
+.address span {
+    position: relative;
+    display: block;
+    letter-spacing: 0.5ch;
+}
+
+#specials img {
+    width: 60%;
+}
+
+#flourish img {
+    width: 80%;
+}
+
+.container {
+    width: auto;
+}

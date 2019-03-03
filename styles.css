@@ -1,0 +1,95 @@
+main {
+  font-family: 'Lato', sans-serif;
+  padding-top: 250px;
+  /* font-family: sans-serif; */
+}
+
+#nav {
+    background-color: #F89521;
+    padding-bottom: 10px;
+}
+
+#hero {
+  overflow: hidden;
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+}
+
+#logo {
+  transition: 0.4s;
+  height: 240px;
+}
+
+#sidemenu {
+  padding-top:40px;
+  padding-bottom: 40px;
+  background-color: white;
+  color: #392315;
+}
+
+#menu-header img {
+  height: 80px;
+}
+
+.linebreak {
+  height: 10px;
+}
+
+.teal {
+  background-color: #01A89E;
+}
+
+.brown {
+  background-color: #392315;
+  color: #01A89E;
+}
+
+.orange {
+  background-color: #F89521;
+}
+
+.orange-text {
+  color: #F89521;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.thin {
+  font-weight: lighter;
+}
+
+.phone {
+  font-size: 1.35em;
+  font-weight: bold;
+  letter-spacing: .35em;
+  padding: 10px;
+  color: white;
+  text-align: right;
+}
+
+.address  {
+  padding: 20px;
+  font-size: 1.25em;
+  letter-spacing: .35em;
+}
+
+.bigger-text {
+  font-size: 1.5em;
+}
+
+.smaller-text {
+  font-size: .75em;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+#sidemenu .smaller-text {
+  margin-top: -15px;
+}
