@@ -1,6 +1,6 @@
 main {
   font-family: 'Lato', sans-serif;
-  padding-top: 250px;
+  padding-top: 160px;
   /* font-family: sans-serif; */
 }
 
@@ -14,14 +14,14 @@ main {
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
 }
 
-#logo {
+#logo-img {
   transition: 0.4s;
-  height: 240px;
+  height: 150px;
 }
 
 #sidemenu {
   padding-top:40px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   background-color: white;
   color: #392315;
 }
@@ -76,6 +76,11 @@ main {
   padding: 20px;
   font-size: 1.25em;
   letter-spacing: .35em;
+}
+
+.cup {
+    width: 150px;
+    margin: 10px 0px;
 }
 
 .bigger-text {

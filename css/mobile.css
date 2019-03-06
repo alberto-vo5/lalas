@@ -1,11 +1,20 @@
+.fixed-top {
+    position: inherit;
+}
+
 main {
     padding-top: 0px;
     font-size: .9em;
 }
 
 #logo {
-    width: 90%;
+    text-align: center;
+}
+
+#logo-img {
+    width: 75%;
     height: auto;
+    margin: 0 auto;
 }
 
 #menu-header img {
@@ -15,6 +24,7 @@ main {
 
 .phone {
     text-align: center;
+    font-size: 1em;
 }
 
 .address span {
@@ -33,4 +43,9 @@ main {
 
 .container {
     width: auto;
+}
+
+#cups > div:first-of-type,
+#cups > div:last-of-type {
+    display: none;
 }

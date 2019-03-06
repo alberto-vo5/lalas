@@ -10,12 +10,12 @@ function scrollFunction(x) {
   if (x.matches){
     
   } else {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 70) {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 50) {
       document.getElementById("hero").style.padding = "0px 10px";
-      document.getElementById("logo").style.height = "100px";
+      document.getElementById("logo-img").style.height = "80px";
     } else {
       document.getElementById("hero").style.padding = "0px 15px";
-      document.getElementById("logo").style.height = "240px";
+      document.getElementById("logo-img").style.height = "150px";
     }
 }
 }
