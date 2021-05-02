@@ -11,6 +11,7 @@ main {
 
 #hero {
   overflow: hidden;
+  position: relative;
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
 }
 
